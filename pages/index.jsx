@@ -180,7 +180,7 @@ const SSApartments = () => {
                     <li>Jarina(Pocha) = Rs 1500( 17 June - 17 July )</li>
                     <li>-360 (Last Month Pending) </li>
                     <br />
-                    <b>Total = 6850 - 4260 = 2590/- </b>
+                    <b>Total = 6850 - 4360 = 2490/- </b>
                     <br />
                     <b>Balance Rs 2590/-</b>
                     <br />
