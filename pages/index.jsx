@@ -75,7 +75,7 @@ const SSApartments = () => {
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="done">Anoop Ji (250/-)</td>
+                <td className="halfdone">Anoop Ji (250/-)</td>
                 <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
@@ -112,7 +112,7 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">Baccha Floor (500/-)</td>
-                <td className="done">Parking Shop (100/-)</td>
+                <td className="halfdone">Parking Shop (100/-)</td>
               </tr>
             </table>
 
@@ -233,6 +233,9 @@ const SSApartments = () => {
         .expenses {
           margin-left: -30px;
           text-align: initial;
+        }
+        .halfdone {
+          background-color: #ecec72;
         }
         .done {
           background-color: lightgreen;

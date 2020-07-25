@@ -213,6 +213,9 @@ const june = () => {
           margin-left: -30px;
           text-align: initial;
         }
+        .halfdone {
+          background-color: #ecec72;
+        }
         .done {
           background-color: lightgreen;
         }
