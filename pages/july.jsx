@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-const SSApartments = () => {
+const july = () => {
   return (
     <>
       <Head>
@@ -53,7 +53,7 @@ const SSApartments = () => {
           </h3>
           <br />
           <h2>
-            <u>August</u>
+            <u>July</u>
           </h2>
           <br />
           <div className="row ">
@@ -64,19 +64,19 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">Rohit Gupta Ji (500/-)</td>
-                <td className="">Nand Kishor Ji</td>
+                <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">Prabhu Dayal Ji</td>
-                <td className="">Randhir Singh Ji</td>
+                <td className="notdone">Prabhu Dayal Ji</td>
+                <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (2nd Floor)</th>
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="">Anoop Ji </td>
-                <td className="">Madhu Ji</td>
+                <td className="halfdone">Anoop Ji (250/-)</td>
+                <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="done">Akash Jaiswal Ji (500/-)</td>
@@ -88,37 +88,37 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">DayaRam Ji (500/-)</td>
-                <td className="">Sunil Ji</td>
+                <td className="done">Sunil Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">Rajesh Ji</td>
-                <td className="">Rahul Dua Ji</td>
+                <td className="notdone">Rajesh Ji</td>
+                <td className="done">Rahul Dua Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="">Sudhir Ji</td>
-                <td className="">Sushma Ji</td>
+                <td className="done">Sudhir Ji (500/-)</td>
+                <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">YadavRam Ji</td>
-                <td className="">Ashish Ji</td>
+                <td className="notdone">YadavRam Ji (June,July)</td>
+                <td className="done">Ashish Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
                 <th className="text-center"></th>
               </tr>
               <tr>
-                <td className="">Baccha Floor</td>
-                <td className="">Parking Shop</td>
+                <td className="done">Baccha Floor (500/-)</td>
+                <td className="halfdone">Parking Shop (100/-)</td>
               </tr>
             </table>
 
             {/* ----------------QR Code------------- */}
 
-            <div className="col-12 col-md-2">
+            {/* <div className="col-12 col-md-2">
               <h5 className="badge badge-primary font-weight-bold ">
                 Online Payment Option
               </h5>
@@ -126,7 +126,7 @@ const SSApartments = () => {
                 UPI :- 8960991211@paytm
               </h5>
               <img className="imge" src="/QRCode.jpg" alt="QR Code" />
-            </div>
+            </div> */}
           </div>
           {/* ----------------End QR Code-----------  */}
 
@@ -154,7 +154,7 @@ const SSApartments = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of August Expenses</h5>
+                  <h5 className="modal-title">Month Of July Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -166,17 +166,25 @@ const SSApartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    {/* <li>Electrical (Bulb Changed 1st Flr) = 100</li>
+                    <li>Electrical (Bulb Changed 1st Flr) = 100</li>
+                    <li>Angel (Electrical Wire Hanging) = 700</li>
+                    <li>Intercom bell connection shifting = 50 </li>
+                    <li>Wiper = 150</li>
+                    <li>Intercom Bell Repairing Service Charge = 300</li>
                     <br />
                     ----Month of June Payment---- <br />
                     <br />
+                    <li>
+                      Gita (Kachara) = Rs 1500 (Rs 100 Extra Adjust in next
+                      month)
+                    </li>
                     <li>Jarina(Pocha) = Rs 1500( 17 June - 17 July )</li>
+                    <li>-360 (Last Month Pending) </li>
                     <br />
-                    <b>Total = 6850 - 4360 = 2490/- </b>
+                    <b>Total = 6850 - 4360 - 300 = 2190/- </b>
                     <br />
-                    <b>Balance Rs 2590/-</b>
-                    <br /> */}
-                    <li>Gita (Kachara) = Rs 1300</li>
+                    <b>Balance Rs 2190/-</b>
+                    <br />
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -192,23 +200,6 @@ const SSApartments = () => {
             </div>
           </div>
           {/* -------------End Pop-Up---------- */}
-          {/* -------------Previous Month------------ */}
-          <a href="/july">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              July
-            </button>
-          </a>
-          <a href="/june">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              June
-            </button>
-          </a>
-          {/* <Link href="/SSApartments">
-              <a target="_blank"> SS Apartments </a>
-            </Link> */}
-          {/* -------------End Previous Month------------ */}
         </div>
       </div>
 
@@ -298,4 +289,4 @@ const SSApartments = () => {
     </>
   );
 };
-export default SSApartments;
+export default july;
