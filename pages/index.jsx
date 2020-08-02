@@ -210,6 +210,15 @@ const SSApartments = () => {
             </Link> */}
           {/* -------------End Previous Month------------ */}
         </div>
+        {/* ---------------- Footer -----------------  */}
+        <div className="row">
+          <div className="col-md-12 foorteLine">
+            {" "}
+            <br />
+            Last updated on 1st August
+          </div>
+        </div>
+        {/* ---------------- End Footer -----------------  */}
       </div>
 
       {/* ------------CSS-------------------- */}
@@ -293,6 +302,10 @@ const SSApartments = () => {
         }
         .imge {
           height: 485px;
+        }
+        .foorteLine {
+          text-align: center;
+          color: #8c92a0;
         }
       `}</style>
     </>
