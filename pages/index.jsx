@@ -100,7 +100,7 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="">Sudhir Ji</td>
-                <td className="">Sushma Ji</td>
+                <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="">YadavRam Ji</td>
