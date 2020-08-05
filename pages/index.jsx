@@ -215,7 +215,7 @@ const SSApartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            Last updated on 5st August
+            Last updated on 5th August
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
