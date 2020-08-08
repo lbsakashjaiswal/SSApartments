@@ -64,7 +64,7 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">Rohit Gupta Ji (500/-)</td>
-                <td className="">Nand Kishor Ji</td>
+                <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="">Prabhu Dayal Ji</td>
@@ -88,7 +88,7 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">DayaRam Ji (500/-)</td>
-                <td className="">Sunil Ji</td>
+                <td className="done">Sunil Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="done">Rajesh Ji (500/-)</td>
