@@ -49,7 +49,7 @@ const SSApartments = () => {
 
         <div className="container mt-4 ">
           <h3 className="text-center aagepicche">
-            All Details Of Your Building Present On This Page
+            All Details Of Our Building Present On This Page
           </h3>
           <br />
           <h2>
