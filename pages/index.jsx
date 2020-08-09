@@ -99,7 +99,7 @@ const SSApartments = () => {
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="">Sudhir Ji</td>
+                <td className="halfdone">Sudhir Ji (250/-)</td>
                 <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
