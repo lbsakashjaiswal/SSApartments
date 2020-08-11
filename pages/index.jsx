@@ -67,7 +67,7 @@ const SSApartments = () => {
                 <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">Prabhu Dayal Ji</td>
+                <td className="notdone">Prabhu Dayal Ji</td>
                 <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
               <tr>
@@ -75,8 +75,8 @@ const SSApartments = () => {
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="">Anoop Ji </td>
-                <td className="">Madhu Ji</td>
+                <td className="done">Anoop Ji (500/-) </td>
+                <td className="notdone">Madhu Ji</td>
               </tr>
               <tr>
                 <td className="done">Akash Jaiswal Ji (500/-)</td>
@@ -103,8 +103,8 @@ const SSApartments = () => {
                 <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">YadavRam Ji</td>
-                <td className="">Ashish Ji</td>
+                <td className="notdone">YadavRam Ji</td>
+                <td className="done">Ashish Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
@@ -215,7 +215,7 @@ const SSApartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            Last updated on 09 Aug 20
+            Last updated on 11 Aug 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
