@@ -75,8 +75,8 @@ const SSApartments = () => {
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="done">Anoop Ji (500/-) </td>
-                <td className="notdone">Madhu Ji</td>
+                <td className="done">Anoop Ji (500/-)</td>
+                <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="done">Akash Jaiswal Ji (500/-)</td>
@@ -215,7 +215,7 @@ const SSApartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            Last updated on 11 Aug 20
+            Last updated on 13 Aug 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
