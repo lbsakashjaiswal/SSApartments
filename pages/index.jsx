@@ -41,7 +41,7 @@ const SSApartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 6390
+                Balance 6890
               </a>
             </li>
           </ul>
@@ -67,7 +67,7 @@ const SSApartments = () => {
                 <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="notdone">Prabhu Dayal Ji</td>
+                <td className="vacant">(----Vacant House---)</td>
                 <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
               <tr>
@@ -99,7 +99,7 @@ const SSApartments = () => {
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="halfdone">Sudhir Ji (Nil)</td>
+                <td className="done">Sudhir Ji (500/-)</td>
                 <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
@@ -108,11 +108,11 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
-                <th className="text-center"></th>
+                {/* <th className="text-center"></th> */}
               </tr>
               <tr>
                 <td className="done">Baccha Floor (500/-)</td>
-                <td className="">Parking Shop</td>
+                {/* <td className="">Parking Shop</td> */}
               </tr>
             </table>
 
@@ -166,17 +166,7 @@ const SSApartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    {/* <li>Electrical (Bulb Changed 1st Flr) = 100</li>
-                    <br />
-                    ----Month of June Payment---- <br />
-                    <br />
-                    <li>Jarina(Pocha) = Rs 1500( 17 June - 17 July )</li>
-                    <br />
-                    <b>Total = 6850 - 4360 = 2490/- </b>
-                    <br />
-                    <b>Balance Rs 2590/-</b>
-                    <br /> */}
-                    <li>Total Collection = Rs 7000/- </li>
+                    <li>Total Collection = Rs 7500/- </li>
                     <li>Last Month Savings = Rs 2190/- </li>
                     <br />
                     ----Month of July Payment---- <br />
@@ -185,7 +175,7 @@ const SSApartments = () => {
                     <li>Jarina(Pocha) = Rs 1500</li>
                     <br />
                     <br />
-                    <b>Total = 9190 - 2800 = Rs 6390/- </b>
+                    <b>Total = 9690 - 2800 = Rs 6890/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -224,7 +214,7 @@ const SSApartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            Last updated on 16 Aug 20
+            Last updated on 23 Aug 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
@@ -260,7 +250,9 @@ const SSApartments = () => {
           background-color: #dc3c45;
           color: white;
         }
-
+        .vacant {
+          background-color: aliceblue;
+        }
         #balance {
           font-size: 13px;
           color: white;
