@@ -41,7 +41,7 @@ const SSApartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 11750
+                Balance 13500
               </a>
             </li>
           </ul>
@@ -52,7 +52,7 @@ const SSApartments = () => {
             All Details Of Our Building Present On This Page
           </h3>
           <br />
-          <h2>
+          <h2 className="head_details">
             <u>CCTV Camera & Meter Shifting</u>
           </h2>
           <br />
@@ -100,7 +100,7 @@ const SSApartments = () => {
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="notdone">Sudhir Ji</td>
+                <td className="done">Sudhir Ji (1750/-)</td>
                 <td className="notdone">Sushma Ji</td>
               </tr>
               <tr>
@@ -153,7 +153,7 @@ const SSApartments = () => {
               className="modal-dialog modal-dialog-scrollable"
               role="document"
             >
-              <div className="modal-content">
+              <div className="modal-content" id="expenses_list">
                 <div className="modal-header">
                   <h5 className="modal-title">CCTV Camera & Meter Shifting Expenses</h5>
                   <button
@@ -167,13 +167,13 @@ const SSApartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 14,750/-</li>
+                    <li><b>Total Collection = Rs 16,500/-</b></li>
                     <br/>
                     <li>On 9th July 4 Meter Was Shifted  = Rs 3000/- 
                       <br/>Nand Kishor Ji,Rohit Ji,Akash Ji,Anoop Ji
                     </li>
                     <br/><br/>
-                    <b>Total = 14750 - 3000 = Rs 11750/- </b>
+                    <b>Total = 16500 - 3000 = Rs 13500/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -218,7 +218,7 @@ const SSApartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            Last updated on 26 Aug 20
+            &copy; Last updated on 26 Aug 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
@@ -239,6 +239,12 @@ const SSApartments = () => {
           /* {
           margin-left: -30px;
         } */
+        }
+        .head_details{
+          font-size: 26px;
+        }#expenses_list{
+          margin-top: 45px;
+          margin-right: 7px;
         }
         .expenses {
           margin-left: -30px;
