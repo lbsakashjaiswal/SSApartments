@@ -104,7 +104,8 @@ const august = () => {
                 <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="notdone">YadavRam Ji</td>
+                <td className="notdone">YadavRam Ji </td>
+                {/* (350/- pending) */}
                 <td className="done">Ashish Ji (500/-)</td>
               </tr>
               <tr>

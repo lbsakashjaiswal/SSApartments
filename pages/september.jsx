@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-const SSApartments = () => {
+const september = () => {
   return (
     <>
       <Head>
@@ -41,7 +41,7 @@ const SSApartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 17000
+                Balance 6890
               </a>
             </li>
           </ul>
@@ -52,8 +52,8 @@ const SSApartments = () => {
             All Details Of Our Building Present On This Page
           </h3>
           <br />
-          <h2 className="head_details">
-            <u>CCTV Camera & Meter Shifting</u>
+          <h2>
+            <u>September</u>
           </h2>
           <br />
           <div className="row ">
@@ -63,56 +63,56 @@ const SSApartments = () => {
                 <th className="text-center">Plot No 20 (3rd Floor)</th>
               </tr>
               <tr>
-                <td className="done">Rohit Gupta Ji (1750/-)</td>
-                <td className="halfdone">Nand Kishor Ji (750/-)</td>
+                <td className="done">Rohit Gupta Ji (500/-)</td>
+                <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
-                <td className="done">Prabhu Dayal Ji (1750/-)</td>
-                <td className="done">Randhir Singh Ji (1750/-)</td>
+                <td className="notdone">Prabhu Dayal Ji</td>
+                <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (2nd Floor)</th>
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="done">Anoop Ji (1750/-)</td>
-                <td className="done">Madhu Ji (1750/-)</td>
+                <td className="done">Anoop Ji (500/-)</td>
+                <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="done">Akash Jaiswal Ji (1750/-)</td>
-                <td className="notdone">Mukesh Jha Ji</td>
+                <td className="done">Akash Jaiswal Ji (500/-)</td>
+                <td className="done">Mukesh Jha Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (1st Floor)</th>
                 <th className="text-center">Plot No 20 (1st Floor)</th>
               </tr>
               <tr>
-                <td className="done">DayaRam Ji (1750/-)</td>
-                <td className="done">Sunil Ji (1750/-)</td>
+                <td className="done">DayaRam Ji (500/-)</td>
+                <td className="done">Sunil Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="done">Rajesh Ji (1750/-)</td>
-                <td className="notdone">Rahul Dua Ji</td>
+                <td className="done">Rajesh Ji (500/-)</td>
+                <td className="done">Rahul Dua Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="done">Sudhir Ji (1750/-)</td>
-                <td className="notdone">Sushma Ji</td>
+                <td className="done">Sudhir Ji (500/-)</td>
+                <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="notdone">YadavRam Ji</td>
-                <td className="done">Ashish Ji (1750/-)</td>
+                <td className="done">Ashish Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
                 {/* <th className="text-center"></th> */}
               </tr>
               <tr>
-                <td className="notdone">Baccha Floor </td>
+                <td className="done">Baccha Floor (500/-)</td>
                 {/* <td className="">Parking Shop</td> */}
               </tr>
             </table>
@@ -153,9 +153,9 @@ const SSApartments = () => {
               className="modal-dialog modal-dialog-scrollable"
               role="document"
             >
-              <div className="modal-content" id="expenses_list">
+              <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">CCTV Camera & Meter Shifting Expenses</h5>
+                  <h5 className="modal-title">Month Of september Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -167,13 +167,16 @@ const SSApartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li><b>Total Collection = Rs 20,000/-</b></li>
-                    <br/>
-                    <li>On 9th July 4 Meter Was Shifted  = Rs 3000/- 
-                      <br/>Nand Kishor Ji,Rohit Ji,Akash Ji,Anoop Ji
-                    </li>
-                    <br/><br/>
-                    <b>Total = 20000 - 3000 = Rs 17,000/- </b>
+                    <li>Total Collection = Rs 7500/- </li>
+                    <li>Last Month Savings = Rs 2190/- </li>
+                    <br />
+                    ----Month of July Payment---- <br />
+                    <br />
+                    <li>Gita (Kachara) = Rs 1300</li>
+                    <li>Jarina(Pocha) = Rs 1500</li>
+                    <br />
+                    <br />
+                    <b>Total = 9690 - 2800 = Rs 6890/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -190,19 +193,7 @@ const SSApartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
-          <a href="/september">
-            <button type="button" className="btn btn-primary mt-2 ml-1" disabled>
-              {" "}
-              September
-            </button>
-          </a>
-          <a href="/august">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              August
-            </button>
-          </a>
-          <a href="/july">
+          {/* <a href="/july">
             <button type="button" className="btn btn-primary mt-2 ml-1">
               {" "}
               July
@@ -213,20 +204,20 @@ const SSApartments = () => {
               {" "}
               June
             </button>
-          </a>
-          {/* <Link href="/SSApartments">
+          </a> */}
+          {/* <Link href="/september">
               <a target="_blank"> SS Apartments </a>
             </Link> */}
           {/* -------------End Previous Month------------ */}
         </div>
         {/* ---------------- Footer -----------------  */}
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 03 Sep 20
+            Last updated on 23 Aug 20
           </div>
-        </div>
+        </div> */}
         {/* ---------------- End Footer -----------------  */}
       </div>
 
@@ -245,12 +236,6 @@ const SSApartments = () => {
           /* {
           margin-left: -30px;
         } */
-        }
-        .head_details{
-          font-size: 26px;
-        }#expenses_list{
-          margin-top: 45px;
-          margin-right: 7px;
         }
         .expenses {
           margin-left: -30px;
@@ -328,4 +313,4 @@ const SSApartments = () => {
     </>
   );
 };
-export default SSApartments;
+export default september;
