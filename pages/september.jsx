@@ -41,7 +41,7 @@ const september = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 9990
+                Balance 8990
               </a>
             </li>
           </ul>
@@ -64,7 +64,7 @@ const september = () => {
               </tr>
               <tr>
                 <td className="done">Rohit Gupta Ji (500/-)</td>
-                <td className="done">Nand Kishor Ji (500/-)</td>
+                <td className="notdone">Nand Kishor Ji</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
@@ -88,7 +88,7 @@ const september = () => {
                 <th className="text-center">Plot No 20 (1st Floor)</th>
               </tr>
               <tr>
-                <td className="done">DayaRam Ji (500/-)</td>
+                <td className="notdone">DayaRam Ji</td>
                 <td className="done">Sunil Ji (500/-)</td>
               </tr>
               <tr>
@@ -167,7 +167,7 @@ const september = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 4500/- </li>
+                    <li>Total Collection = Rs 3500/- </li>
                     <li>Last Month Savings = Rs 6890/- </li>
                     <br />
                     ----Month of July Payment---- <br />
@@ -176,7 +176,7 @@ const september = () => {
                     {/* <li>Jarina(Pocha) = Rs 1500</li> */}
                     <br />
                     <br />
-                    <b>Total = 11390 - 1400 = Rs 9,990/- </b>
+                    <b>Total = 10390 - 1400 = Rs 8,990/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
