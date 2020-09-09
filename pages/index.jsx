@@ -41,7 +41,7 @@ const SSApartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 18750
+                Balance 13450
               </a>
             </li>
           </ul>
@@ -172,8 +172,11 @@ const SSApartments = () => {
                     <li>On 9th July 4 Meter Was Shifted  = Rs 3000/- 
                       <br/>Nand Kishor Ji,Rohit Ji,Akash Ji,Anoop Ji
                     </li>
+                    <li>On 6th August 7 Meter Was Shifted  = Rs 4000/-
+                      <br/> Wires,Clip,Pipe = Rs 1300/-
+                       </li>
                     <br/><br/>
-                    <b>Total = 21750 - 3000 = Rs 18,750/- </b>
+                    <b>Total = 21750 - 8300 = Rs 13,450/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -191,7 +194,7 @@ const SSApartments = () => {
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
           <a href="/september">
-            <button type="button" className="btn btn-primary mt-2 ml-1" disabled>
+            <button type="button" className="btn btn-primary mt-2 ml-1">
               {" "}
               September
             </button>
@@ -224,7 +227,7 @@ const SSApartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 03 Sep 20
+            &copy; Last updated on 09 Sep 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
