@@ -41,7 +41,7 @@ const SSApartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 13450
+                Balance -3655
               </a>
             </li>
           </ul>
@@ -64,7 +64,7 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">Rohit Gupta Ji (1750/-)</td>
-                <td className="halfdone">Nand Kishor Ji (750/-)</td>
+                <td className="done">Nand Kishor Ji (1750/-)</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
@@ -93,7 +93,7 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">Rajesh Ji (1750/-)</td>
-                <td className="notdone">Rahul Dua Ji</td>
+                <td className="done">Rahul Dua Ji (1750/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
@@ -101,19 +101,19 @@ const SSApartments = () => {
               </tr>
               <tr>
                 <td className="done">Sudhir Ji (1750/-)</td>
-                <td className="notdone">Sushma Ji</td>
+                <td className="done">Sushma Ji (1750/-)</td>
               </tr>
               <tr>
-                <td className="notdone">YadavRam Ji</td>
+                <td className="halfdone">YadavRam Ji (750/-)</td>
                 <td className="done">Ashish Ji (1750/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
-                {/* <th className="text-center"></th> */}
+                <th className="text-center"></th>
               </tr>
               <tr>
-                <td className="notdone">Baccha Floor </td>
-                {/* <td className="">Parking Shop</td> */}
+                <td className="halfdone">Baccha Floor (750/-)</td>
+                <td className="halfdone">Parking Shop (750/-)</td>
               </tr>
             </table>
 
@@ -167,16 +167,29 @@ const SSApartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li><b>Total Collection = Rs 21,750/-</b></li>
-                    <br/>
-                    <li>On 9th July 4 Meter Was Shifted  = Rs 3000/- 
-                      <br/>Nand Kishor Ji,Rohit Ji,Akash Ji,Anoop Ji
+                    <li><b>Total Collection(13,500 Meter & 15,000 Camera)<br/> = Rs 28,500/-</b></li>
+                    <br/>                
+                    ----<b>Meter Payment</b>---- <br/>
+                   <li>On 9th July 4 Meter Was Shifted  = Rs 3000/- 
+                   <br/>Nand Kishor Ji,Rohit Ji,Akash Ji,Anoop Ji
                     </li>
-                    <li>On 6th August 7 Meter Was Shifted  = Rs 4000/-
+                    <li>On 6th August 7 Meter Was Shifted  = Rs 4200/-
                       <br/> Wires,Clip,Pipe = Rs 1300/-
-                       </li>
-                    <br/><br/>
-                    <b>Total = 21750 - 8300 = Rs 13,450/- </b>
+                    </li>
+                    <li>On 13th August 7 Meter Was Shifted  = Rs 4200/-
+                      <br/> Wires,Tape,Pipe = Rs 980/-
+                    </li>
+                    <li><b>Total (Collection-Expenses) = 13,500 - 13,680 <br/> = - Rs 180/-(Balance)</b></li>
+                    <br/> 
+                                 
+                    ----<b>CCTV Camera Payment</b>---- <br/>
+                    <li>Total Bill = Rs 17,750/-
+                    <br/> Box Fitting, Electrical Connection, Lock, Bulb = Rs 750/-
+                    </li>
+                    <li><b>Total (Collection-Expenses) = 15,000 - 18,475 <br/> = - Rs 3,475/-(Balance)</b></li>
+                    <br/> 
+                    <br/>
+                    <b>Total Balance = - Rs 3,655/-</b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -227,7 +240,7 @@ const SSApartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 09 Sep 20
+            &copy; Last updated on 17 Sep 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
