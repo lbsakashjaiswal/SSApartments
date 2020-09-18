@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-const Ssapartments = () => {
+const SSApartments = () => {
   return (
     <>
       <Head>
@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 7585
+                Balance -3655
               </a>
             </li>
           </ul>
@@ -52,8 +52,8 @@ const Ssapartments = () => {
             All Details Of Our Building Present On This Page
           </h3>
           <br />
-          <h2>
-            <u>September</u>
+          <h2 className="head_details">
+            <u>CCTV Camera & Meter Shifting</u>
           </h2>
           <br />
           <div className="row ">
@@ -63,63 +63,63 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (3rd Floor)</th>
               </tr>
               <tr>
-                <td className="done">Rohit Gupta Ji (500/-)</td>
-                <td className="notdone">Nand Kishor Ji</td>
+                <td className="done">Rohit Gupta Ji (1750/-)</td>
+                <td className="done">Nand Kishor Ji (1750/-)</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
-                <td className="notdone">Prabhu Dayal Ji</td>
-                <td className="done">Randhir Singh Ji (500/-)</td>
+                <td className="done">Prabhu Dayal Ji (1750/-)</td>
+                <td className="done">Randhir Singh Ji (1750/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (2nd Floor)</th>
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="done">Anoop Ji (500/-)</td>
-                <td className="notdone">Madhu Ji</td>
+                <td className="done">Anoop Ji (1750/-)</td>
+                <td className="done">Madhu Ji (1750/-)</td>
               </tr>
               <tr>
-                <td className="done">Akash Jaiswal Ji (500/-)</td>
-                <td className="done">Mukesh Jha Ji (500/-)</td>
+                <td className="done">Akash Jaiswal Ji (1750/-)</td>
+                <td className="done">Mukesh Jha Ji (1750/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (1st Floor)</th>
                 <th className="text-center">Plot No 20 (1st Floor)</th>
               </tr>
               <tr>
-                <td className="done">DayaRam Ji (500/-)</td>
-                <td className="done">Sunil Ji (500/-)</td>
+                <td className="done">DayaRam Ji (1750/-)</td>
+                <td className="done">Sunil Ji (1750/-)</td>
               </tr>
               <tr>
-                <td className="done">Rajesh Ji (500/-)</td>
-                <td className="done">Rahul Dua Ji (500/-)</td>
+                <td className="done">Rajesh Ji (1750/-)</td>
+                <td className="done">Rahul Dua Ji (1750/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="done">Sudhir Ji (500/-)</td>
-                <td className="done">Sushma Ji (500/-)</td>
+                <td className="done">Sudhir Ji (1750/-)</td>
+                <td className="done">Sushma Ji (1750/-)</td>
               </tr>
               <tr>
-                <td className="notdone">YadavRam Ji</td>
-                <td className="done">Ashish Ji (500/-)</td>
+                <td className="halfdone">YadavRam Ji (750/-)</td>
+                <td className="done">Ashish Ji (1750/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
-                {/* <th className="text-center"></th> */}
+                <th className="text-center"></th>
               </tr>
               <tr>
-                <td className="done">Baccha Floor (500/-)</td>
-                {/* <td className="">Parking Shop</td> */}
+                <td className="halfdone">Baccha Floor (750/-)</td>
+                <td className="halfdone">Parking Shop (750/-)</td>
               </tr>
             </table>
 
             {/* ----------------QR Code------------- */}
 
-            <div className="col-12 col-md-2">
+            {/* <div className="col-12 col-md-2">
               <h5 className="badge badge-primary font-weight-bold ">
                 Online Payment Option
               </h5>
@@ -127,7 +127,7 @@ const Ssapartments = () => {
                 UPI :- 8960991211@paytm
               </h5>
               <img className="imge" src="/QRCode.jpg" alt="QR Code" />
-            </div>
+            </div> */}
           </div>
           {/* ----------------End QR Code-----------  */}
 
@@ -153,9 +153,9 @@ const Ssapartments = () => {
               className="modal-dialog modal-dialog-scrollable"
               role="document"
             >
-              <div className="modal-content">
+              <div className="modal-content" id="expenses_list">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of september Expenses</h5>
+                  <h5 className="modal-title">CCTV Camera & Meter Shifting Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -167,20 +167,29 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 6500/- </li>
-                    <li>Last Month Savings = Rs 6890/- </li>
-                    <br />
-                    ----Month of July Payment---- <br />
-                    <br />
-                    <li>Gita (Kachara) = Rs 1400</li>
-                    {/* <li>Jarina(Pocha) = Rs 1500</li> */}
-                    <br />
-                     ---- Payment---- <br />
-                    <br />
-                    <li>Marble  = Rs 750</li>
-                    <li>Camera & Meter balance = Rs 3,655</li>
-                    <br />
-                    <b>Total = 13,390 - 5805 = Rs 7,585/- </b>
+                    <li><b>Total Collection(13,500 Meter & 15,000 Camera)<br/> = Rs 28,500/-</b></li>
+                    <br/>                
+                    ----<b>Meter Payment</b>---- <br/>
+                   <li>On 9th July 4 Meter Was Shifted  = Rs 3000/- 
+                   <br/>Nand Kishor Ji,Rohit Ji,Akash Ji,Anoop Ji
+                    </li>
+                    <li>On 6th August 7 Meter Was Shifted  = Rs 4200/-
+                      <br/> Wires,Clip,Pipe = Rs 1300/-
+                    </li>
+                    <li>On 13th August 7 Meter Was Shifted  = Rs 4200/-
+                      <br/> Wires,Tape,Pipe = Rs 980/-
+                    </li>
+                    <li><b>Total (Collection-Expenses) = 13,500 - 13,680 <br/> = Rs - 180/-(Balance)</b></li>
+                    <br/> 
+                                 
+                    ----<b>CCTV Camera Payment</b>---- <br/>
+                    <li>Total Bill = Rs 17,750/-
+                    <br/> Box Fitting, Electrical Connection, Lock, Bulb = Rs 750/-
+                    </li>
+                    <li><b>Total (Collection-Expenses) = 15,000 - 18,475 <br/> = Rs - 3,475/-(Balance)</b></li>
+                    <br/> 
+                    <br/>
+                    <b>Total Balance(Meter & Camera) = Rs - 3,655/-</b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -197,31 +206,8 @@ const Ssapartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
-          <a href="/meter&camera">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              Meter & Camera
-            </button>
-          </a>
-          <a href="/august">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              August
-            </button>
-          </a>
-          <a href="/july">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              July
-            </button>
-          </a>
-          <a href="/june">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              June
-            </button>
-          </a>
-          {/* <Link href="/september">
+          
+          {/* <Link href="/SSApartments">
               <a target="_blank"> SS Apartments </a>
             </Link> */}
           {/* -------------End Previous Month------------ */}
@@ -252,6 +238,12 @@ const Ssapartments = () => {
           /* {
           margin-left: -30px;
         } */
+        }
+        .head_details{
+          font-size: 26px;
+        }#expenses_list{
+          margin-top: 45px;
+          margin-right: 7px;
         }
         .expenses {
           margin-left: -30px;
@@ -329,4 +321,4 @@ const Ssapartments = () => {
     </>
   );
 };
-export default Ssapartments;
+export default SSApartments;
