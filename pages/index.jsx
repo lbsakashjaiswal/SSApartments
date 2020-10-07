@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 6185
+                Balance 9103
               </a>
             </li>
           </ul>
@@ -53,7 +53,7 @@ const Ssapartments = () => {
           </h3>
           <br />
           <h2>
-            <u>September</u>
+            <u>October</u>
           </h2>
           <br />
           <div className="row ">
@@ -76,12 +76,12 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="done">Anoop Ji (500/-)</td>
-                <td className="notdone">Madhu Ji</td>
+                <td className="notdone">Anoop Ji</td>
+                <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="done">Akash Jaiswal Ji (500/-)</td>
-                <td className="done">Mukesh Jha Ji (500/-)</td>
+                <td className="notdone">Mukesh Jha Ji</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (1st Floor)</th>
@@ -92,27 +92,27 @@ const Ssapartments = () => {
                 <td className="done">Sunil Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="done">Rajesh Ji (500/-)</td>
-                <td className="done">Rahul Dua Ji (500/-)</td>
+                <td className="notdone">Rajesh Ji</td>
+                <td className="notdone">Rahul Dua Ji</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="done">Sudhir Ji (500/-)</td>
+                <td className="notdone">Sudhir Ji</td>
                 <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="notdone">YadavRam Ji</td>
-                <td className="done">Ashish Ji (500/-)</td>
+                <td className="notdone">Ashish Ji</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
                 {/* <th className="text-center"></th> */}
               </tr>
               <tr>
-                <td className="done">Baccha Floor (500/-)</td>
+                <td className="notdone">Baccha Floor</td>
                 {/* <td className="">Parking Shop</td> */}
               </tr>
             </table>
@@ -155,7 +155,7 @@ const Ssapartments = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of september Expenses</h5>
+                  <h5 className="modal-title">Month Of October Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -167,23 +167,24 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 7000/- </li>
-                    <li>Last Month Savings = Rs 6890/- </li>
+                    <li>Total Collection = Rs 4000/- </li>
+                    <li>Last Month Savings = Rs 6503/- </li>
                     <br />
                     ----Month of July Payment---- <br />
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
-                    <li>Jarina(Pocha) = Rs 1500</li>
+                    {/* <li>Jarina(Pocha) = Rs 1500</li> */}
                     <br />
-                     ---- Payment---- <br />
+                    {/* ---- Payment---- <br /> */}
                     <br />
-                    <li>Marble  = Rs 750</li>
+                    {/* <li>Marble  = Rs 750</li>
                     (Sudhir Ji)
                     <li>Intercom Repair = Rs 400</li>
                      (Rahul Ji, Ashish Ji)
+                    <li>Stairs and gate marking = Rs 182</li>
                     <li>Camera & Meter balance = Rs 3,655</li>
-                    <br />
-                    <b>Total = 13,890 - 7705 = Rs 6,185/- </b>
+                    <br /> */}
+                    <b>Total = 10,503 - 1400 = Rs 9,103/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -200,10 +201,10 @@ const Ssapartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
-          <a href="/meter&camera">
+          <a href="/september">
             <button type="button" className="btn btn-primary mt-2 ml-1">
               {" "}
-              Meter & Camera
+              September
             </button>
           </a>
           <a href="/august">
@@ -224,6 +225,12 @@ const Ssapartments = () => {
               June
             </button>
           </a>
+          <a href="/meter&camera">
+            <button type="button" className="btn btn-primary mt-2 ml-1">
+              {" "}
+              Meter & Camera
+            </button>
+          </a>
           {/* <Link href="/september">
               <a target="_blank"> SS Apartments </a>
             </Link> */}
@@ -234,7 +241,7 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 19 Sep 20
+            &copy; Last updated on 07 Oct 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}

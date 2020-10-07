@@ -41,7 +41,7 @@ const september = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 7585
+                Balance 6503
               </a>
             </li>
           </ul>
@@ -64,7 +64,7 @@ const september = () => {
               </tr>
               <tr>
                 <td className="done">Rohit Gupta Ji (500/-)</td>
-                <td className="notdone">Nand Kishor Ji</td>
+                <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
@@ -77,7 +77,7 @@ const september = () => {
               </tr>
               <tr>
                 <td className="done">Anoop Ji (500/-)</td>
-                <td className="notdone">Madhu Ji</td>
+                <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="done">Akash Jaiswal Ji (500/-)</td>
@@ -116,20 +116,7 @@ const september = () => {
                 {/* <td className="">Parking Shop</td> */}
               </tr>
             </table>
-
-            {/* ----------------QR Code------------- */}
-
-            <div className="col-12 col-md-2">
-              <h5 className="badge badge-primary font-weight-bold ">
-                Online Payment Option
-              </h5>
-              <h5 className="badge badge-primary font-weight-bold ml-1">
-                UPI :- 8960991211@paytm
-              </h5>
-              <img className="imge" src="/QRCode.jpg" alt="QR Code" />
-            </div>
           </div>
-          {/* ----------------End QR Code-----------  */}
 
           {/* -------------Pop-Up---------- */}
 
@@ -167,20 +154,24 @@ const september = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 6500/- </li>
+                    <li>Total Collection = Rs 7500/- </li>
                     <li>Last Month Savings = Rs 6890/- </li>
                     <br />
                     ----Month of July Payment---- <br />
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
-                    {/* <li>Jarina(Pocha) = Rs 1500</li> */}
+                    <li>Jarina(Pocha) = Rs 1500</li>
                     <br />
                      ---- Payment---- <br />
                     <br />
                     <li>Marble  = Rs 750</li>
+                    (Sudhir Ji)
+                    <li>Intercom Repair = Rs 400</li>
+                     (Rahul Ji, Ashish Ji)
+                    <li>Stairs and gate marking = Rs 182</li>
                     <li>Camera & Meter balance = Rs 3,655</li>
                     <br />
-                    <b>Total = 13,390 - 5805 = Rs 7,585/- </b>
+                    <b>Total = 14,390 - 7887 = Rs 6,503/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -196,30 +187,13 @@ const september = () => {
             </div>
           </div>
           {/* -------------End Pop-Up---------- */}
-          {/* -------------Previous Month------------ */}
-          {/* <a href="/july">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              July
-            </button>
-          </a>
-          <a href="/june">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              June
-            </button>
-          </a> */}
-          {/* <Link href="/september">
-              <a target="_blank"> SS Apartments </a>
-            </Link> */}
-          {/* -------------End Previous Month------------ */}
         </div>
         {/* ---------------- Footer -----------------  */}
         <div className="row">
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 17 Sep 20
+            &copy; Last updated on 07 Oct 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
