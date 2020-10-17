@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 11603
+                Balance 12503
               </a>
             </li>
           </ul>
@@ -93,14 +93,14 @@ const Ssapartments = () => {
               </tr>
               <tr>
                 <td className="done">Rajesh Ji (500/-)</td>
-                <td className="notdone">Rahul Dua Ji</td>
+                <td className="done">Rahul Dua Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="notdone">Sudhir Ji</td>
+                <td className="done">Sudhir Ji (500/-)</td>
                 <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
@@ -167,12 +167,13 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 6500/- </li>
+                    <li>Total Collection = Rs 7500/- </li>
                     <li>Last Month Savings = Rs 6503/- </li>
                     <br />
                     ----Month of July Payment---- <br />
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
+                    <li>Wifi(Camera Internet) = Rs 100</li>
                     {/* <li>Jarina(Pocha) = Rs 1500</li> */}
                     <br />
                     {/* ---- Payment---- <br /> */}
@@ -184,7 +185,7 @@ const Ssapartments = () => {
                     <li>Stairs and gate marking = Rs 182</li>
                     <li>Camera & Meter balance = Rs 3,655</li>
                     <br /> */}
-                    <b>Total = 13,003 - 1400 = Rs 11,603/- </b>
+                    <b>Total = 14,003 - 1500 = Rs 12,503/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -241,7 +242,7 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 14 Oct 20
+            &copy; Last updated on 17 Oct 20
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
