@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 12503
+                Balance 11003
               </a>
             </li>
           </ul>
@@ -174,7 +174,7 @@ const Ssapartments = () => {
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
                     <li>Wifi(Camera Internet) = Rs 100</li>
-                    {/* <li>Jarina(Pocha) = Rs 1500</li> */}
+                    <li>Jarina(Pocha) = Rs 1500</li>
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
@@ -185,7 +185,7 @@ const Ssapartments = () => {
                     <li>Stairs and gate marking = Rs 182</li>
                     <li>Camera & Meter balance = Rs 3,655</li>
                     <br /> */}
-                    <b>Total = 14,003 - 1500 = Rs 12,503/- </b>
+                    <b>Total = 14,003 - 3000 = Rs 11,003/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
