@@ -1,16 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-// import script from "../script";
-import runAmination from "../script";
-
 const Ssapartments = () => {
-  if (typeof window !== "object") {
-    return null;
-  }
-  React.useEffect(() => {
-    runAmination();
-  }, []);
   return (
     <>
       <Head>
@@ -57,10 +48,12 @@ const Ssapartments = () => {
         </nav>
 
         <div className="container mt-4 ">
-          <h3 className="text-center aagepicche">Happy Diwali</h3>
+          <h3 className="text-center aagepicche">
+            All Details Of Our Building Present On This Page
+          </h3>
           <br />
           <h2>
-            <u>November</u>
+            <u>October</u>
           </h2>
           <br />
           <div className="row ">
@@ -70,63 +63,63 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (3rd Floor)</th>
               </tr>
               <tr>
-                <td className="">Rohit Gupta Ji</td>
-                <td className="">Nand Kishor Ji</td>
+                <td className="done">Rohit Gupta Ji (500/-)</td>
+                <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
-                <td className="">Prabhu Dayal Ji</td>
-                <td className="">Randhir Singh Ji</td>
+                <td className="notdone">Prabhu Dayal Ji</td>
+                <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (2nd Floor)</th>
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="">Anoop Ji</td>
-                <td className="">Madhu Ji</td>
+                <td className="done">Anoop Ji (500/-)</td>
+                <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">Akash Jaiswal Ji</td>
-                <td className="">Mukesh Jha Ji</td>
+                <td className="done">Akash Jaiswal Ji (500/-)</td>
+                <td className="done">Mukesh Jha Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (1st Floor)</th>
                 <th className="text-center">Plot No 20 (1st Floor)</th>
               </tr>
               <tr>
-                <td className="">DayaRam Ji</td>
-                <td className="">Sunil Ji</td>
+                <td className="done">DayaRam Ji (500/-)</td>
+                <td className="done">Sunil Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">Rajesh Ji</td>
-                <td className="">Rahul Dua Ji</td>
+                <td className="done">Rajesh Ji (500/-)</td>
+                <td className="done">Rahul Dua Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="">Sudhir Ji</td>
-                <td className="">Sushma Ji</td>
+                <td className="done">Sudhir Ji (500/-)</td>
+                <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">YadavRam Ji</td>
-                <td className="">Ashish Ji</td>
+                <td className="notdone">YadavRam Ji</td>
+                <td className="done">Ashish Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
                 {/* <th className="text-center"></th> */}
               </tr>
               <tr>
-                <td className="">Baccha Floor</td>
+                <td className="done">Baccha Floor (500/-)</td>
                 {/* <td className="">Parking Shop</td> */}
               </tr>
             </table>
 
             {/* ----------------QR Code------------- */}
 
-            <div className="col-12 col-md-2">
+            {/* <div className="col-12 col-md-2">
               <h5 className="badge badge-primary font-weight-bold ">
                 Online Payment Option
               </h5>
@@ -134,7 +127,7 @@ const Ssapartments = () => {
                 UPI :- 8960991211@paytm
               </h5>
               <img className="imge" src="/QRCode.jpg" alt="QR Code" />
-            </div>
+            </div> */}
           </div>
           {/* ----------------End QR Code-----------  */}
 
@@ -162,7 +155,7 @@ const Ssapartments = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of November Expenses</h5>
+                  <h5 className="modal-title">Month Of October Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -174,18 +167,18 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 0000/- </li>
-                    <li>Last Month Savings = Rs 11003/- </li>
+                    <li>Total Collection = Rs 7500/- </li>
+                    <li>Last Month Savings = Rs 6503/- </li>
                     <br />
                     ----Month of July Payment---- <br />
                     <br />
-                    {/* <li>Gita (Kachara) = Rs 1400</li> */}
-                    {/* <li>Wifi(Camera Internet) = Rs 100</li> */}
-                    {/* <li>Jarina(Pocha) = Rs 1500</li> */}
+                    <li>Gita (Kachara) = Rs 1400</li>
+                    <li>Wifi(Camera Internet) = Rs 100</li>
+                    <li>Jarina(Pocha) = Rs 1500</li>
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 11003 - 0000 = Rs 11,003/- </b>
+                    <b>Total = 14,003 - 3000 = Rs 11,003/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -202,13 +195,7 @@ const Ssapartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
-          <a href="/october">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              October
-            </button>
-          </a>
-          <a href="/september">
+          {/* <a href="/september">
             <button type="button" className="btn btn-primary mt-2 ml-1">
               {" "}
               September
@@ -237,7 +224,7 @@ const Ssapartments = () => {
               {" "}
               Meter & Camera
             </button>
-          </a>
+          </a> */}
           {/* <Link href="/september">
               <a target="_blank"> SS Apartments </a>
             </Link> */}
@@ -248,10 +235,9 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 7 Nov 20
+            &copy; Last updated on 17 Oct 20
           </div>
         </div>
-        <canvas id="Canvas"></canvas>
         {/* ---------------- End Footer -----------------  */}
       </div>
 
@@ -261,21 +247,6 @@ const Ssapartments = () => {
         body {
           background-color: #fafafa;
           font-family: "Red Rose", cursive;
-        }
-        body {
-          background-color: #b3adad;
-          /* background-color: #000; */
-          color: black;
-          text-align: center;
-        }
-
-        canvas {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          z-index: -1;
         }
         .modal-body {
           color: black;
