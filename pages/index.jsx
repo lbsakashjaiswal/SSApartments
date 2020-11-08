@@ -50,7 +50,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 11003
+                Balance 15903
               </a>
             </li>
           </ul>
@@ -70,56 +70,56 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (3rd Floor)</th>
               </tr>
               <tr>
-                <td className="">Rohit Gupta Ji</td>
-                <td className="">Nand Kishor Ji</td>
+                <td className="done">Rohit Gupta Ji (500/-)</td>
+                <td className="notdone">Nand Kishor Ji</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
-                <td className="">Prabhu Dayal Ji</td>
-                <td className="">Randhir Singh Ji</td>
+                <td className="notdone">Prabhu Dayal Ji</td>
+                <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (2nd Floor)</th>
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="">Anoop Ji</td>
-                <td className="">Madhu Ji</td>
+                <td className="done">Anoop Ji (500/-)</td>
+                <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">Akash Jaiswal Ji</td>
-                <td className="">Mukesh Jha Ji</td>
+                <td className="done">Akash Jaiswal Ji (500/-)</td>
+                <td className="done">Mukesh Jha Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (1st Floor)</th>
                 <th className="text-center">Plot No 20 (1st Floor)</th>
               </tr>
               <tr>
-                <td className="">DayaRam Ji</td>
-                <td className="">Sunil Ji</td>
+                <td className="done">DayaRam Ji (500/-)</td>
+                <td className="done">Sunil Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">Rajesh Ji</td>
-                <td className="">Rahul Dua Ji</td>
+                <td className="done">Rajesh Ji (500/-)</td>
+                <td className="done">Rahul Dua Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (G.Floor)</th>
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="">Sudhir Ji</td>
-                <td className="">Sushma Ji</td>
+                <td className="done">Sudhir Ji (500/-)</td>
+                <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="">YadavRam Ji</td>
-                <td className="">Ashish Ji</td>
+                <td className="notdone">YadavRam Ji</td>
+                <td className="done">Ashish Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
                 {/* <th className="text-center"></th> */}
               </tr>
               <tr>
-                <td className="">Baccha Floor</td>
+                <td className="notdone">Baccha Floor</td>
                 {/* <td className="">Parking Shop</td> */}
               </tr>
             </table>
@@ -174,18 +174,19 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 0000/- </li>
+                    <li>Total Collection = Rs 6500/- </li>
                     <li>Last Month Savings = Rs 11003/- </li>
                     <br />
-                    ----Month of July Payment---- <br />
+                    ----Monthly Payment---- <br />
                     <br />
-                    {/* <li>Gita (Kachara) = Rs 1400</li> */}
-                    {/* <li>Wifi(Camera Internet) = Rs 100</li> */}
+                    <li>Gita (Kachara) = Rs 1400</li>
+                    <li>Wifi(Camera Internet) = Rs 100</li>
+                    <li>Jhadu,pocha(Purchasing)= Rs 100</li>
                     {/* <li>Jarina(Pocha) = Rs 1500</li> */}
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 11003 - 0000 = Rs 11,003/- </b>
+                    <b>Total = 17503 - 1600 = Rs 15,903/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -248,7 +249,7 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 7 Nov 20
+            &copy; Last updated on 8 Nov 20
           </div>
         </div>
         <canvas id="Canvas"></canvas>
