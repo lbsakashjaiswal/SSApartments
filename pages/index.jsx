@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 18565
+                Balance 17565
               </a>
             </li>
           </ul>
