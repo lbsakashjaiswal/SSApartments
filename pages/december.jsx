@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+
 const Ssapartments = () => {
   return (
     <>
@@ -41,7 +42,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 10503
+                Balance 14765
               </a>
             </li>
           </ul>
@@ -53,7 +54,7 @@ const Ssapartments = () => {
           </h3>
           <br />
           <h2>
-            <u>October</u>
+            <u>December</u>
           </h2>
           <br />
           <div className="row ">
@@ -67,7 +68,6 @@ const Ssapartments = () => {
                 <td className="notdone">Nand Kishor Ji</td>
               </tr>
               <tr>
-                {/* <td className="vacant">(----Vacant Flat---)</td> */}
                 <td className="notdone">Prabhu Dayal Ji</td>
                 <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
@@ -112,22 +112,12 @@ const Ssapartments = () => {
                 {/* <th className="text-center"></th> */}
               </tr>
               <tr>
-                <td className="done">Baccha Floor (500/-)</td>
+                <td className="notdone">Baccha Floor</td>
                 {/* <td className="">Parking Shop</td> */}
               </tr>
             </table>
 
             {/* ----------------QR Code------------- */}
-
-            {/* <div className="col-12 col-md-2">
-              <h5 className="badge badge-primary font-weight-bold ">
-                Online Payment Option
-              </h5>
-              <h5 className="badge badge-primary font-weight-bold ml-1">
-                UPI :- 8960991211@paytm
-              </h5>
-              <img className="imge" src="/QRCode.jpg" alt="QR Code" />
-            </div> */}
           </div>
           {/* ----------------End QR Code-----------  */}
 
@@ -155,7 +145,7 @@ const Ssapartments = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of October Expenses</h5>
+                  <h5 className="modal-title">Month Of December Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -167,18 +157,22 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 7000/- </li>
-                    <li>Last Month Savings = Rs 6503/- </li>
+                    <li>Total Collection = Rs 6500/- </li>
+                    <li>Last Month Savings = Rs 13,903/- </li>
                     <br />
-                    ----Month of July Payment---- <br />
+                    ----Monthly Payment---- <br />
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
+                    <li>Jarina(Pocha) = Rs 1700</li>
                     <li>Wifi(Camera Internet) = Rs 100</li>
-                    <li>Jarina(Pocha) = Rs 1500</li>
+                    <li>Jhadu(Purchasing)= Rs 60</li>
+                    <li>Diwali Gift :- </li>Gita(kadhai) = Rs 850 <br />
+                    Jarina(Tanki)= Rs 528
+                    <li>Sewer cleaning = Rs 500+500</li>
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 13,503 - 3000 = Rs 10,503/- </b>
+                    <b>Total = 20,403 - 5638 = Rs 14,765/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -195,36 +189,7 @@ const Ssapartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
-          {/* <a href="/september">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              September
-            </button>
-          </a>
-          <a href="/august">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              August
-            </button>
-          </a>
-          <a href="/july">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              July
-            </button>
-          </a>
-          <a href="/june">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              June
-            </button>
-          </a>
-          <a href="/meter&camera">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              Meter & Camera
-            </button>
-          </a> */}
+
           {/* <Link href="/september">
               <a target="_blank"> SS Apartments </a>
             </Link> */}
@@ -235,7 +200,7 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 17 Oct 20
+            &copy; Last updated on 17 Jan 21
           </div>
         </div>
         {/* ---------------- End Footer -----------------  */}
@@ -247,6 +212,21 @@ const Ssapartments = () => {
         body {
           background-color: #fafafa;
           font-family: "Red Rose", cursive;
+        }
+        body {
+          background-color: #b3adad;
+          /* background-color: #000; */
+          color: black;
+          text-align: center;
+        }
+
+        canvas {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
         }
         .modal-body {
           color: black;

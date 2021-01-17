@@ -1,16 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-// import script from "../script";
-import runAmination from "../script";
-
 const Ssapartments = () => {
-  if (typeof window !== "object") {
-    return null;
-  }
-  React.useEffect(() => {
-    runAmination();
-  }, []);
   return (
     <>
       <Head>
@@ -50,17 +41,17 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 15903
+                Balance 18565
               </a>
             </li>
           </ul>
         </nav>
 
         <div className="container mt-4 ">
-          <h3 className="text-center aagepicche">Happy Diwali</h3>
+          <h3 className="text-center aagepicche">HAPPY NEW YEAR</h3>
           <br />
           <h2>
-            <u>November</u>
+            <u>January</u>
           </h2>
           <br />
           <div className="row ">
@@ -112,7 +103,7 @@ const Ssapartments = () => {
               </tr>
               <tr>
                 <td className="notdone">YadavRam Ji</td>
-                <td className="done">Ashish Ji (500/-)</td>
+                <td className="notdone">Ashish Ji</td>
               </tr>
               <tr>
                 <th className="text-center">Parking</th>
@@ -137,9 +128,7 @@ const Ssapartments = () => {
             </div>
           </div>
           {/* ----------------End QR Code-----------  */}
-
           {/* -------------Pop-Up---------- */}
-
           <button
             type="button"
             className="btn btn-primary mt-2"
@@ -162,7 +151,7 @@ const Ssapartments = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of November Expenses</h5>
+                  <h5 className="modal-title">Month Of January Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -174,19 +163,19 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 6500/- </li>
-                    <li>Last Month Savings = Rs 11003/- </li>
+                    <li>Total Collection = Rs 6000/- </li>
+                    <li>Last Month Savings = Rs 14765/- </li>
                     <br />
                     ----Monthly Payment---- <br />
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
                     <li>Wifi(Camera Internet) = Rs 100</li>
-                    <li>Jhadu,pocha(Purchasing)= Rs 100</li>
-                    {/* <li>Jarina(Pocha) = Rs 1500</li> */}
+                    {/* <li>Jhadu,pocha(Purchasing)= Rs 100</li> */}
+                    <li>Jarina(Pocha) = Rs 1700</li>
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 17503 - 1600 = Rs 15,903/- </b>
+                    <b>Total = 20765 - 2200 = Rs 18,565/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -203,6 +192,18 @@ const Ssapartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
+          <a href="/december">
+            <button type="button" className="btn btn-primary mt-2 ml-1">
+              {" "}
+              December
+            </button>
+          </a>{" "}
+          <a href="/november">
+            <button type="button" className="btn btn-primary mt-2 ml-1">
+              {" "}
+              November
+            </button>
+          </a>
           <a href="/october">
             <button type="button" className="btn btn-primary mt-2 ml-1">
               {" "}
@@ -249,7 +250,7 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 8 Nov 20
+            &copy; Last updated on 17 Jan 21
           </div>
         </div>
         <canvas id="Canvas"></canvas>
