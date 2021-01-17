@@ -175,7 +175,7 @@ const Ssapartments = () => {
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 20765 - 2200 = Rs 18,565/- </b>
+                    <b>Total = 20765 - 3200 = Rs 17,565/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
