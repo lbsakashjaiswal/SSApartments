@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+
 const Ssapartments = () => {
   return (
     <>
@@ -41,7 +42,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 20950
+                Balance 19750
               </a>
             </li>
           </ul>
@@ -53,7 +54,7 @@ const Ssapartments = () => {
           </h3>
           <br />
           <h2>
-            <u>March</u>
+            <u>February</u>
           </h2>
           <br />
           <div className="row ">
@@ -67,7 +68,6 @@ const Ssapartments = () => {
                 <td className="notdone">Nand Kishor Ji</td>
               </tr>
               <tr>
-                {/* <td className="vacant">(----Vacant Flat---)</td> */}
                 <td className="notdone">Prabhu Dayal Ji</td>
                 <td className="done">Randhir Singh Ji (500/-)</td>
               </tr>
@@ -76,7 +76,7 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="notdone">Anoop Ji</td>
+                <td className="done">Anoop Ji (500/-)</td>
                 <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
@@ -100,11 +100,11 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (G.Floor)</th>
               </tr>
               <tr>
-                <td className="notdone">Sudhir Ji</td>
+                <td className="done">Sudhir Ji (500/-)</td>
                 <td className="done">Sushma Ji (500/-)</td>
               </tr>
               <tr>
-                <td className="notdone">YadavRam Ji</td>
+                <td className="halfdone">YadavRam Ji (250/-)</td>
                 <td className="done">Ashish Ji (500/-)</td>
               </tr>
               <tr>
@@ -118,19 +118,11 @@ const Ssapartments = () => {
             </table>
 
             {/* ----------------QR Code------------- */}
-
-            <div className="col-12 col-md-2">
-              <h5 className="badge badge-primary font-weight-bold ">
-                Online Payment Option
-              </h5>
-              <h5 className="badge badge-primary font-weight-bold ml-1">
-                UPI :- 8960991211@paytm
-              </h5>
-              <img className="imge" src="/QRCode.jpg" alt="QR Code" />
-            </div>
           </div>
           {/* ----------------End QR Code-----------  */}
+
           {/* -------------Pop-Up---------- */}
+
           <button
             type="button"
             className="btn btn-primary mt-2"
@@ -153,7 +145,7 @@ const Ssapartments = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of March Expenses</h5>
+                  <h5 className="modal-title">Month Of February Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -165,19 +157,20 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 5000/- </li>
-                    <li>Last Month Savings = Rs 19750/- </li>
+                    <li>Total Collection = Rs 6250/- </li>
+                    <li>Last Month Savings = Rs 17,400/- </li>
                     <br />
                     ----Monthly Payment---- <br />
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
                     <li>Jarina(Pocha) = Rs 1700</li>
                     <li>Wifi(Camera Internet) = Rs 100</li>
-                    <li>Sewer cleaning= Rs 600</li>
+                    <li>Bulb= Rs 200</li>
+                    <li>Intercom = Rs 500</li>
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 24750 - 3800 = Rs 20,950/- </b>
+                    <b>Total = 23,650 - 3900 = Rs 19,750/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -194,66 +187,7 @@ const Ssapartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
-          <a href="/february">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              February
-            </button>
-          </a>
-          <a href="/january">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              January
-            </button>
-          </a>
-          <a href="/december">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              December
-            </button>
-          </a>{" "}
-          <a href="/november">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              November
-            </button>
-          </a>
-          <a href="/october">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              October
-            </button>
-          </a>
-          <a href="/september">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              September
-            </button>
-          </a>
-          <a href="/august">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              August
-            </button>
-          </a>
-          <a href="/july">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              July
-            </button>
-          </a>
-          <a href="/june">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              June
-            </button>
-          </a>
-          <a href="/meter&camera">
-            <button type="button" className="btn btn-primary mt-2 ml-1">
-              {" "}
-              Meter & Camera
-            </button>
-          </a>
+
           {/* <Link href="/september">
               <a target="_blank"> SS Apartments </a>
             </Link> */}
@@ -267,7 +201,6 @@ const Ssapartments = () => {
             &copy; Last updated on 07 Mar 21
           </div>
         </div>
-        <canvas id="Canvas"></canvas>
         {/* ---------------- End Footer -----------------  */}
       </div>
 
