@@ -119,7 +119,7 @@ const Ssapartments = () => {
 
             {/* ----------------QR Code------------- */}
 
-            <div className="col-12 col-md-2">
+            {/* <div className="col-12 col-md-2">
               <h5 className="badge badge-primary font-weight-bold ">
                 Online Payment Option
               </h5>
@@ -127,7 +127,7 @@ const Ssapartments = () => {
                 UPI :- 8960991211@paytm
               </h5>
               <img className="imge" src="/QRCode.jpg" alt="QR Code" />
-            </div>
+            </div> */}
           </div>
           {/* ----------------End QR Code-----------  */}
           {/* -------------Pop-Up---------- */}
@@ -199,7 +199,7 @@ const Ssapartments = () => {
           </div>
           {/* -------------End Pop-Up---------- */}
           {/* -------------Previous Month------------ */}
-          <a href="/march">
+          {/* <a href="/march">
             <button type="button" className="btn btn-primary mt-2 ml-1">
               {" "}
               March
@@ -264,7 +264,7 @@ const Ssapartments = () => {
               {" "}
               Meter & Camera
             </button>
-          </a>
+          </a> */}
           {/* <Link href="/september">
               <a target="_blank"> SS Apartments </a>
             </Link> */}
