@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 10503
+                Balance 11003
               </a>
             </li>
           </ul>
@@ -64,7 +64,7 @@ const Ssapartments = () => {
               </tr>
               <tr>
                 <td className="done">Rohit Gupta Ji (500/-)</td>
-                <td className="notdone">Nand Kishor Ji</td>
+                <td className="done">Nand Kishor Ji (500/-)</td>
               </tr>
               <tr>
                 {/* <td className="vacant">(----Vacant Flat---)</td> */}
@@ -167,7 +167,7 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 7000/- </li>
+                    <li>Total Collection = Rs 7500/- </li>
                     <li>Last Month Savings = Rs 6503/- </li>
                     <br />
                     ----Month of July Payment---- <br />
@@ -178,7 +178,7 @@ const Ssapartments = () => {
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 13,503 - 3000 = Rs 10,503/- </b>
+                    <b>Total = 14,003 - 3000 = Rs 11,003/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
