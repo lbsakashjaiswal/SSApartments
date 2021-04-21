@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 17050
+                Balance 19250
               </a>
             </li>
           </ul>
@@ -53,7 +53,7 @@ const Ssapartments = () => {
           </h3>
           <br />
           <h2>
-            <u>March</u>
+            <u>April</u>
           </h2>
           <br />
           <div className="row ">
@@ -76,7 +76,7 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="notdone">Anoop Ji</td>
+                <td className="halfdone">Anoop Ji (350)</td>
                 <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
@@ -153,7 +153,7 @@ const Ssapartments = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">Month Of March Expenses</h5>
+                  <h5 className="modal-title">Month Of April Expenses</h5>
                   <button
                     type="button"
                     className="close"
@@ -165,24 +165,20 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 5000/- </li>
-                    <li>Last Month Savings = Rs 20750/- </li>
+                    <li>Total Collection = Rs 5350/- </li>
+                    <li>Last Month Savings = Rs 18300/- </li>
                     <br />
                     ----Monthly Payment---- <br />
                     <br />
                     <li>Gita (Kachara) = Rs 1400</li>
                     <li>Jarina(Pocha) = Rs 1700</li>
                     <li>Wifi(Camera Internet) = Rs 100</li>
-                    <li>Sewer cleaning= Rs 600</li>
-                    <br />
-                    ---- Arrangement of motors ---- <br />
-                    <br />
-                    <li>Material cost - 3200/-</li>
-                    <li>Labor charge - 1700/- </li>
+                    <li>Gate Repair = Rs 650</li>
+                    <li>Intercom Repair= Rs 550</li>
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 25750 - 8700 = Rs 17,050/- </b>
+                    <b>Total = 23650 - 4400 = Rs 19,250/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -275,7 +271,7 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 30 Mar 21
+            &copy; Last updated on 21 Apr 21
           </div>
         </div>
         <canvas id="Canvas"></canvas>

@@ -41,7 +41,7 @@ const Ssapartments = () => {
           <ul className="navbar-nav">
             <li className="nav-items">
               <a href="#" className="nav-link mr-1" id="balance">
-                Balance 17050
+                Balance 18300
               </a>
             </li>
           </ul>
@@ -76,12 +76,12 @@ const Ssapartments = () => {
                 <th className="text-center">Plot No 20 (2nd Floor)</th>
               </tr>
               <tr>
-                <td className="notdone">Anoop Ji</td>
+                <td className="halfdone">Anoop Ji (350)</td>
                 <td className="done">Madhu Ji (500/-)</td>
               </tr>
               <tr>
                 <td className="done">Akash Jaiswal Ji (500/-)</td>
-                <td className="notdone">Mukesh Jha Ji</td>
+                <td className="done">Mukesh Jha Ji (500/-)</td>
               </tr>
               <tr>
                 <th className="text-center">Plot No 19 (1st Floor)</th>
@@ -165,8 +165,8 @@ const Ssapartments = () => {
                 </div>
                 <div className="modal-body">
                   <ul className="expenses">
-                    <li>Total Collection = Rs 5000/- </li>
-                    <li>Last Month Savings = Rs 20750/- </li>
+                    <li>Total Collection = Rs 5850/- </li>
+                    <li>Last Month Savings = Rs 21150/- </li>
                     <br />
                     ----Monthly Payment---- <br />
                     <br />
@@ -182,7 +182,7 @@ const Ssapartments = () => {
                     <br />
                     {/* ---- Payment---- <br /> */}
                     <br />
-                    <b>Total = 25750 - 8700 = Rs 17,050/- </b>
+                    <b>Total = 27000 - 8700 = Rs 18,300/- </b>
                   </ul>
                 </div>
                 <div className="modal-footer">
@@ -275,7 +275,7 @@ const Ssapartments = () => {
           <div className="col-md-12 foorteLine">
             {" "}
             <br />
-            &copy; Last updated on 30 Mar 21
+            &copy; Last updated on 21 Apr 21
           </div>
         </div>
         <canvas id="Canvas"></canvas>
